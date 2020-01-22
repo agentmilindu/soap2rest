@@ -1,0 +1,17 @@
+---
+repository:
+  type: soap
+  url: http://www.dneonline.com/calculator.asmx  
+endpoints:
+- endpoint: "/add/:a/:b"
+  method: GET
+  mapping: Add
+- endpoint: "/sub/:a/:b"
+  method: GET
+  mapping: Subtract
+- endpoint: "/multiply/:a/:b"
+  method: GET
+  mapping: Multiply
+- endpoint: "/divide/:a/:b"
+  method: GET
+  mapping: Divide
